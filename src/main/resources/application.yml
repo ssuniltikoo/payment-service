@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: payment-service
+  datasource:
+    username: paymentserviceuser
+    password:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/paymentservice
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
