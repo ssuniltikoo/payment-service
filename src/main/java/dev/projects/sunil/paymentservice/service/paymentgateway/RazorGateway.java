@@ -32,8 +32,8 @@ public class RazorGateway implements PaymentGateway{
 
             JSONObject customer = new JSONObject();
             customer.put("name","sunil tikoo");
-            customer.put("contact","+918879438085");
-            customer.put("email","ssunil.tikoo@gmail.com");
+            customer.put("contact","+0000");
+            customer.put("email","dummy");
             paymentLinkRequest.put("customer",customer);
 
             JSONObject notify = new JSONObject();
